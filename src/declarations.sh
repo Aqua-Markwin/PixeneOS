@@ -23,7 +23,7 @@ WORKDIR=".tmp"
 # GitHub variables
 DOMAIN="https://github.com"
 REPOSITORY="PixeneOS" # GitHub repository name
-USER="pixincreate"    # GitHub username
+USER="Aqua-Markwin"    # GitHub username
 
 # Application version variables
 VERSION[AFSR]="${VERSION[AFSR]:-1.0.4}"
@@ -39,7 +39,7 @@ VERSION[OEMUNLOCKONBOOT]="${VERSION[OEMUNLOCKONBOOT]:-1.3}"
 
 # Magisk
 MAGISK[PREINIT]="${MAGISK_PREINIT:-}"
-MAGISK[REPOSITORY]="${USER}/Magisk"
+MAGISK[REPOSITORY]="pixencreate/Magisk"
 MAGISK[URL]="${DOMAIN}/${MAGISK[REPOSITORY]}"
 
 # Keys
@@ -72,7 +72,7 @@ ADDITIONALS[AVBROOT]="${ADDITIONALS[AVBROOT]:-true}"                   # Android
 ADDITIONALS[CUSTOTA_TOOL]="${ADDITIONALS[CUSTOTA_TOOL]:-true}"         # Custom OTA Tool
 ADDITIONALS[MY_AVBROOT_SETUP]="${ADDITIONALS[MY_AVBROOT_SETUP]:-true}" # My AVBRoot setup
 
-ADDITIONALS[ROOT]="${ADDITIONALS_ROOT:-false}"   # Only Magisk is supported
+ADDITIONALS[ROOT]="${ADDITIONALS_ROOT:-true}"   # Only Magisk is supported
 ADDITIONALS[RETRY]="${ADDITIONALS[RETRY]:-true}" # Auto download signatures
 
 # Outputs
